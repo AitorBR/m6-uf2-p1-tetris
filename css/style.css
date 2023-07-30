@@ -1,0 +1,82 @@
+td {
+    border: #eee solid 1px;
+    color: white;
+}
+
+td {
+    border: 2.5px solid rgb(58, 58, 58);
+    height: 25px;
+    width: 25px;
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+button {
+    padding: 5px;
+    background-color: #dad1d1;
+    border-radius: 10px solid;
+    font-family: Arial;
+    color: black;
+    font-size: 15px;
+}
+
+.line {
+    border-top: 3px solid rgb(255, 255, 255);
+    height: 2px;
+    max-width: 235px;
+    padding: 0px;
+    margin: 5px auto 0 auto;
+}
+
+.box {}
+
+#game {
+    float: left;
+}
+
+.right_column {
+    margin-left: 10%;
+    float: left;
+}
+
+#next_piece {}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+}

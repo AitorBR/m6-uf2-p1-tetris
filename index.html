@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tetris</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js\controler\tetrisGame.js"></script>
+    <script src="js\controler\tetrisDades.js"></script>
+    <script src="js\clases\ClasePiece.js"></script>
+    <script src="js\clases\GameClass.js"></script>
+    <script src="js\clases\shapes.js"></script>
+    <script src="js\view\viewGame.js"></script>
+    <script src="js\view\viewDades.js"></script>
+    <link href="css\style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Tetris</h1>
+        <div id="game"></div>
+        <div class="right_column">
+            <div id="next_piece"></div>
+            <div class="box_text">
+                <p id="score">Score: 0</p>
+                <p id="highScore">High Score: 0</p>
+                <p id="level">Level 1</p>
+                <div id="div_text">
+                    <p>Controles: <br> D/→: mover derecha <br> A/←: mover izquierda <br> S/↓: mover rapido <br> W/↑: cambiar posicion
+                    </p>
+                </div>
+                <div class="box_buttons">
+                    <button type="button" id="pause">Pause</button>
+                    <button type="button" id="newGame">Nueva Partida</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
